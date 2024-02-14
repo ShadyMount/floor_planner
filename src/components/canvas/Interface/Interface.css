@@ -1,0 +1,26 @@
+.Interface {
+  display: flex;
+  width: 100%;
+  background-color: rgb(167, 221, 255);
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.scroll {
+  background-color: lightblue;
+  width: 500px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  margin-bottom: 16px;
+}
+
+.item {
+  display: inline-block;
+  margin: 4px;
+}

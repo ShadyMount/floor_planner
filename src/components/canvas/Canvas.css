@@ -1,0 +1,13 @@
+.container {
+  padding: 24px;
+  min-height: 360px;
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+}
+
+.canvas {
+  height: 600px;
+  width: 600px;
+  background-color: rgb(173, 172, 172);
+}
